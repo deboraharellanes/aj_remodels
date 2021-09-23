@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Contact Me */
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+fieldset > * {
+    width: 410px;
+    margin: 0px auto 0 auto;
+}
+
+
+.form_field__wrapper {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=submit] {
+    margin-top: 15px;
+    width: 65px;
+}
+main{
+	margin: 50px 50px 100px 50px; 
+}
