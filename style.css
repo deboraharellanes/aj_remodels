@@ -24,14 +24,16 @@ nav li {
 
 nav li a {
   display: block;
-  color: white;
+  color: ;
   text-align: center;
   padding: 14px 5px 16px 5px;
   text-decoration: none;
+  color: black;
 }
 
 nav li a:hover {
-  background-color: #382809;
+  background-color: #bbb09b;
+  color: black;
 }
 
 main{
@@ -65,7 +67,7 @@ p a {
 	display: block;
     font-size:larger;
     margin-left: 35%;
-    /*font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    /font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
 
 .gallery {

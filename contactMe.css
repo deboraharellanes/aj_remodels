@@ -1,28 +1,84 @@
 @charset "utf-8";
 /* CSS Contact Me */
+body {
+    margin: 0;
+}
+
 
 fieldset {
-    display: flex;
-    flex-direction: column;
-    border: none;
+  display: flex;
+  flex-direction: column;
+  border: none;
 }
 
 fieldset > * {
-    width: 410px;
-    margin: 0px auto 0 auto;
+  width: 40%;
+  margin: 0px auto 0 auto;
 }
-
 
 .form_field__wrapper {
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
-input[type=submit] {
-    margin-top: 15px;
-    width: 65px;
+input[type="submit"] {
+  margin-top: 15px;
+  width: 65px;
 }
-main{
-	margin: 50px 50px 100px 50px; 
+main {
+  margin: 50px 50px 100px 50px;
+}
+
+.bottom, .banner {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.banner {
+    height: 200px;
+   
+
+}
+
+.banner:nth-child(2){
+    height: 100px;
+}
+
+.bottom {
+    height: 50px;
+}
+
+.contactme__form {
+    margin: 20px auto;
+}
+
+.gallery__imgs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+}
+
+.gallery__item {
+    box-shadow: 0 0 0 10px white;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  body,
+  html,
+  main {
+    width: 100%;
+    margin: 0;
+  }
+
+  fieldset > * {
+      width: 100%;
+  }
+
+ 
+  
 }
